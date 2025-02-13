@@ -15,6 +15,14 @@ conversation  : Composition of many {
 };
 }
 
+/* 
+
+Composition is a type of relationship in object-oriented programming (OOP) 
+where one entity is strongly dependent on another.
+represents relationship with strong ownership.
+   If the parent entity is deleted, its composed child entities are also deleted
+*/
+
 entity Customers : managed { 
 key ID        : String;
 firstName     : String;
