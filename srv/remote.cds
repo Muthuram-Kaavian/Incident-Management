@@ -8,12 +8,14 @@ service RemoteService {
     BusinessPartnerName as name,
     to_BusinessPartnerAddress as addresses
   }
+  
   entity BusinessPartnerAddress as projection on S4.A_BusinessPartnerAddress {
             BusinessPartner as ID,
             AddressID as addressId,
             to_EmailAddress as email,
             to_PhoneNumber as phoneNumber
   }
+  
   entity EmailAddress as projection on S4.A_AddressEmailAddress {
       key AddressID as addressId,
       EmailAddress as email

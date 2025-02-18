@@ -1,0 +1,27 @@
+{
+  "xsappname": "incident-management",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Support",
+      "description": "Support Role"
+    },
+    {
+      "name": "$XSAPPNAME.support",
+      "description": "support"
+    },
+    {
+      "name": "$XSAPPNAME.admin",
+      "description": "admin"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "Support",
+      "description": "Support Access",
+      "scope-references": [
+        "$XSAPPNAME.Support"
+      ]
+    }
+  ],
+  "attributes": []
+}
