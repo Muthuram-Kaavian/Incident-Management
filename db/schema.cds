@@ -21,6 +21,8 @@ Composition is a type of relationship in object-oriented programming (OOP)
 where one entity is strongly dependent on another.
 represents relationship with strong ownership.
    If the parent entity is deleted, its composed child entities are also deleted
+
+   provide metadata about a variable, function, or class
 */
 
 entity Customers : managed { 
